@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>杂记</title><link>https://AddWen.github.io/test.github.io</link><description>Blog description</description><copyright>杂记</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/104900173?v=4&amp;size=64</url><title>avatar</title><link>https://AddWen.github.io/test.github.io</link></image><lastBuildDate>Fri, 18 Apr 2025 06:38:39 +0000</lastBuildDate><managingEditor>杂记</managingEditor><ttl>60</ttl><webMaster>杂记</webMaster><item><title>JavaScript 基本语法与数据结构</title><link>https://AddWen.github.io/test.github.io/post/JavaScript%20-ji-ben-yu-fa-yu-shu-ju-jie-gou.html</link><description># js
+# js
 
 1. 变量
 
@@ -47,7 +46,7 @@ console.log(++i);//2   i++相当于先使用后自增1  自减相似
 ​	逻辑运算符(与或非)
 
 ```javascript
-// 与 &amp;&amp;    两侧可以为布尔值 只有两边都为真结果才为真
+// 与 &&    两侧可以为布尔值 只有两边都为真结果才为真
 // 或 ||    两侧可以为布尔值 只有两边结果都为假才为假
 // 非 ！    将原本的布尔值类型反过来  ！true = false
 ```
@@ -70,7 +69,7 @@ console.log(++i);//2   i++相当于先使用后自增1  自减相似
    // for循环
    // for(初始化语句;判断条件;控制条件)
    let sum1=0
-   for(let i=1;i&lt;=MAX;i++)//求1-10累加和
+   for(let i=1;i<=MAX;i++)//求1-10累加和
    {
        sum1+=i//等价于sum=sum+i  -= *= /= 类似
    }
@@ -79,7 +78,7 @@ console.log(++i);//2   i++相当于先使用后自增1  自减相似
    // while循环
    // while(boolean) boolean为true将会执行后面的第一条语句，否则不执行
    let sum2=0
-   while (i&lt;=MAX){
+   while (i<=MAX){
        sum2+=i
        i++
    }
@@ -113,12 +112,12 @@ console.log(++i);//2   i++相当于先使用后自增1  自减相似
    console.log(numArray);
    
    let myFriends = [];//[]内可以加上数字表示数组长度，不加则表示空数组
-   	myFriends[0] = '李四';
-   	myFriends[1] = '王五';
-   	myFriends[2] = '赵六';
+   	myFriends[0] = "李四";
+   	myFriends[1] = "王五";
+   	myFriends[2] = "赵六";
    // 数组的遍历
    // 最基本的输出方式  
-   for (let i=0;i&lt;myFriends.length;i++){//数组名.length() 可自动获取数组长度
+   for (let i=0;i<myFriends.length;i++){//数组名.length() 可自动获取数组长度
        console.log(myFriends[i],i)  
    }
    //这种方法更简洁
@@ -169,4 +168,4 @@ console.log(++i);//2   i++相当于先使用后自增1  自减相似
    console.log(students);
    ```
 
-   。</description><guid isPermaLink="true">https://AddWen.github.io/test.github.io/post/JavaScript%20-ji-ben-yu-fa-yu-shu-ju-jie-gou.html</guid><pubDate>Fri, 18 Apr 2025 06:38:09 +0000</pubDate></item><item><title>01</title><link>https://AddWen.github.io/test.github.io/post/01.html</link><description>1111。</description><guid isPermaLink="true">https://AddWen.github.io/test.github.io/post/01.html</guid><pubDate>Fri, 18 Apr 2025 05:43:30 +0000</pubDate></item></channel></rss>
+   
